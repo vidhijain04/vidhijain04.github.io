@@ -1,0 +1,53 @@
+{
+  "name": "vidhijain04.github.io",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Vidhi Jain's Portfolio Website",
+  "keywords": [
+    "portfolio",
+    "tailwindcss"
+  ],
+  "homepage": "https://vidhijain04.github.io",
+  "bugs": {
+    "url": "https://www.github.com/vidhijain04/vidhijain04.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.io/vidhijain04/vidhijain04.github.io"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Vidhi Jain",
+    "url": "https://www.github.com/vidhijain04"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{js,css,json,html,md,yml,yaml,htm}\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "browserList": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

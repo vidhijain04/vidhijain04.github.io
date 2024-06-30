@@ -1,0 +1,10 @@
+node_modules/
+
+coverage/
+dist/
+build/
+__mocks__/
+
+
+src/theme/
+*.md
